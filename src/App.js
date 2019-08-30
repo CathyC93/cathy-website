@@ -1,10 +1,12 @@
 import {
+  Figure,
   Nav,
   Navbar,
   NavDropdown,
 } from 'react-bootstrap'
 import React, { Component } from 'react';
 import blackLotus from './black-lotus.png';
+import cathy from './cathy.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
@@ -36,6 +38,17 @@ class App extends Component {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
+        <Figure>
+          <Figure.Image
+            width={171}
+            height={180}
+            alt="cathy"
+            src={cathy}
+          />
+          <Figure.Caption>
+            This website is currently a work in progress!
+          </Figure.Caption>
+        </Figure>
         </header>
       </div>
     );
