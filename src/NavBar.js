@@ -7,7 +7,7 @@ import blackLotus from './black-lotus.png'
 import React from 'react'
 export const NavBar = () => (
   <Navbar expand="lg" style={{ backgroundColor: '#849264' }}>
-    <Navbar.Brand href="#home">
+    <Navbar.Brand>
       <img
         src={blackLotus}
         width="45"

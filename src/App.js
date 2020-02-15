@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import { NavBar } from './NavBar'
 import { Home } from './Home'
+import { Footer } from './Footer'
 import {
   BrowserRouter as Router,
   Route,
@@ -16,6 +17,7 @@ class App extends Component {
           <Router>
             <Route path='/' component={NavBar} />
             <Route path='/' component={Home} />
+            <Route path='/' component={Footer} />
           </Router>
         </header>
       </div>
