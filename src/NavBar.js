@@ -19,12 +19,7 @@ export const NavBar = () => (
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link href="cathy">Home</Nav.Link>
-        <NavDropdown title="Writing" id="basic-nav-dropdown">
-          <NavDropdown.Item href="code" style={{ fontSize: 'large' }}>Code</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="blog" style={{ fontSize: 'large' }}>Blog</NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link>Home</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
