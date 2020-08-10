@@ -1,7 +1,6 @@
 import {
   Nav,
   Navbar,
-  NavDropdown,
 } from 'react-bootstrap'
 import blackLotus from './black-lotus.png'
 import React from 'react'

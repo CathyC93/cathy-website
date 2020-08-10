@@ -13,7 +13,7 @@ export const Footer = () => (
   <Navbar fixed="bottom" style={{ backgroundColor: '#849264', marginBottom: '0px', justifyContent: 'space-evenly' }}>
     <Nav>
       <Col md='3'>
-        <FaLinkedin style={{ cursor: 'pointer' }} onClick={() => window.open("https://www.linkedin.com/in/cathy-casey-477b914b/")} />
+        <FaLinkedin style={{ cursor: 'pointer' }} onClick={() => window.open("https://www.linkedin.com/in/cathy-casey-richards-477b914b/")} />
       </Col>
       <Col md='3'>
         <FaInstagram style={{ cursor: 'pointer' }} onClick={() => window.open("https://www.instagram.com/cathy_c93/")} />
